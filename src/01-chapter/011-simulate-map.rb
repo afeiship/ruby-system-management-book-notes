@@ -12,6 +12,7 @@ class Array
   end
 end
 
+# 这里不知道为啥，没有效果；估计语法改了。
 nums = [1, 2, 3].my_map do |item|
   return item + 1
 end
